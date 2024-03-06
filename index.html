@@ -2,132 +2,147 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <title>Página do Pokémon Squirtle!</title>
+    <title>Página do Pokémon Squirtle</title>
     <style>
       /* Reset de estilos para garantir consistência em diferentes navegadores */
-      body,
-      h1,
-      h2,
-      p,
-      ul,
-      ol,
-      li,
-      figure,
-      table,
-      th,
-      td {
-        margin: 0;
-        padding: 0;
-      }
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
 
-      main {
-        max-width: 80vw;
-        margin: 0 auto;
-      }
+main {
+  max-width: 80vw;
+  margin: 0 auto;
+}
 
-      main > section {
-        padding: 20px;
-      }
+main > section {
+  padding: 20px;
+}
 
-      p {
-        margin-bottom: 16px;
-      }
+p {
+  margin-bottom: 16px;
+}
 
-      ul li {
-        margin-left: 20px;
-      }
+ul li {
+  margin-left: 20px;
+}
 
-      body {
-        font-family: 'Arial', sans-serif;
-        line-height: 1.6;
-        color: #333;
-        background-color: #f4f4f4;
-      }
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
 
-      header {
-        background-color: #007bff;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-      }
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
 
-      header h1 {
-        font-size: 24px;
-      }
+header h1 {
+  font-size: 24px;
+}
 
-      section h1,
-      section h2,
-      section h3 {
-        margin-bottom: 8px;
-      }
+section h1,
+section h2,
+section h3 {
+  margin-bottom: 8px;
+}
 
-      article h1,
-      article h2,
-      article h3 {
-        margin-bottom: 10px;
-      }
+article h1,
+article h2,
+article h3 {
+  margin-bottom: 10px;
+}
 
-      nav ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        background-color: #343a40;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 20px 0;
-      }
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #343a40;
+  padding: 10px;
+  border-radius: 0px;
+  margin: 0px 0;
+}
 
-      nav a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: bold;
-        margin: 0 15px;
-      }
+nav a:hover {
+  text-decoration: none;
+  color: #fff;
+  cursor: over;
+  font-weight: bold;
+  margin: 0 15px;
+}
 
-      th {
-        padding: 10px 24px;
-      }
+th {
+  padding: 10px 24px;
+}
 
-      tr {
-        text-align: center;
-      }
+tr {
+  text-align: center;
+}
 
-      main section,
-      main article,
-      main table {
-        color: black;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin-bottom: 20px;
-      }
+main section,
+main article,
+main table {
+  color: black;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
 
-      article {
-        background-color: #ffc107;
-        color: #fff;
-      }
+article {
+  background-color: #ffc107;
+  color: #fff;
+}
 
-      footer {
-        background-color: #343a40;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-        bottom: 0;
-        width: 100%;
-      }
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
 
-      footer a {
-        color: #ffc107;
-        text-decoration: none;
-      }
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.pok {
+    
+    text-align: center;
+    margin-left: 10px;
+}
+
+.imgs {
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
     </style>
   </head>
   <body>
     <header>
       <h1>Squirtle</h1>
     </header>
-
     <nav aria-label="Navegação principal">
       <ul>
         <li><a href="#info-squirtle">Informações sobre Squirtle</a></li>
@@ -164,15 +179,15 @@
       <section id="curiosidades" aria-labelledby="curiosidades-label">
         <h2 id="curiosidades-label">Curiosidades</h2>
         <ul>
-          <li>Squirtle é um dos Pokémon mais populares e adoráveis.</li>
-          <li>
-            Seu nome deriva das palavras "squirrel" (esquilo) e "turtle"
+          <p>🔍 Squirtle é um dos Pokémon mais populares e adoráveis.</p>
+          <p>
+            🔍 Seu nome deriva das palavras "squirrel" (esquilo) e "turtle"
             (tartaruga).
-          </li>
-          <li>
-            Squirtle é frequentemente escolhido por treinadores para começar sua
+          </p>
+          <p>
+            🔍 Squirtle é frequentemente escolhido por treinadores para começar sua
             jornada Pokémon.
-          </li>
+          </p>
         </ul>
       </section>
 
@@ -222,29 +237,21 @@
 
       <section id="evolucao" aria-labelledby="evolucao-label">
         <h2 id="evolucao-label">Evolução</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Estágio</th>
-              <th>Pokémon</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Squirtle</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Wartortle</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Blastoise</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+        <div class="imgs">
+            <div>
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png">
+                <p class="pok"><strong>1.Squirtle</strong></p>
+            </div>
+            <div>
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png">
+                <p class="pok"><strong>2.Wartortle</strong></p>
+            </div>
+            <div>
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png">
+              <p class="pok"><strong>3.Blastoise</strong></p>
+            </div>
+        </div>
+    </section>
     </main>
 
     <footer aria-label="Rodapé">
